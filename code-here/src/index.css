@@ -13,3 +13,10 @@
     height: 35vh;
   }
 }
+
+.accordion-button.collapsed::after {
+  display: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  display: none !important;
+}

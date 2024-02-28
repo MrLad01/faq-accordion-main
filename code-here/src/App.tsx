@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap-grid.min.css";
-import { Container, Accordion, Card, Row, Col } from "react-bootstrap";
+import { Container, Accordion, Card, Row, Col, Button } from "react-bootstrap";
 
 function App() {
   return (
@@ -8,10 +8,27 @@ function App() {
         <Col md={6}>
           <Card className="text-center">
             <Card.Body>
+              <Row>
+                <h3 className="me-auto"> FAQs </h3>
+              </Row>
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>
+                  <Accordion.Header className="me-auto">
                     What is Frontend Mentor, and how will it help me?
+                    <Button variant="link" className="text-decoration-none">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="31"
+                        fill="none"
+                        viewBox="0 0 30 31"
+                      >
+                        <path
+                          fill="#AD28EB"
+                          d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+                        />
+                      </svg>
+                    </Button>
                   </Accordion.Header>
                   <Accordion.Body>
                     Frontend Mentor offers realistic coding challenges to help
@@ -21,7 +38,24 @@ function App() {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                  <Accordion.Header> Is Frontend Mentor free?</Accordion.Header>
+                  <Accordion.Header>
+                    {" "}
+                    Is Frontend Mentor free?
+                    <Button variant="link" className="text-decoration-none">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="31"
+                        fill="none"
+                        viewBox="0 0 30 31"
+                      >
+                        <path
+                          fill="#AD28EB"
+                          d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+                        />
+                      </svg>
+                    </Button>
+                  </Accordion.Header>
                   <Accordion.Body>
                     Yes, Frontend Mentor offers both free and premium coding
                     challenges, with the free option providing access to a range
@@ -32,6 +66,20 @@ function App() {
                   <Accordion.Header>
                     {" "}
                     Can I use Frontend Mentor projects in my portfolio?
+                    <Button variant="link" className="text-decoration-none">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="31"
+                        fill="none"
+                        viewBox="0 0 30 31"
+                      >
+                        <path
+                          fill="#AD28EB"
+                          d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+                        />
+                      </svg>
+                    </Button>
                   </Accordion.Header>
                   <Accordion.Body>
                     Yes, you can use projects completed on Frontend Mentor in
@@ -44,6 +92,20 @@ function App() {
                     {" "}
                     How can I get help if I'm stuck on a Frontend Mentor
                     challenge?
+                    <Button variant="link" className="text-decoration-none">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="31"
+                        fill="none"
+                        viewBox="0 0 30 31"
+                      >
+                        <path
+                          fill="#AD28EB"
+                          d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+                        />
+                      </svg>
+                    </Button>
                   </Accordion.Header>
                   <Accordion.Body>
                     The best place to get help is inside Frontend Mentor's
