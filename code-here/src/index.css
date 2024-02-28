@@ -1,0 +1,15 @@
+.background-image-container {
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+
+@media (max-width: 576px) {
+  .background-image-container {
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+  }
+}
