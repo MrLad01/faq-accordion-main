@@ -13,16 +13,16 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="background-container"></div>
       <div className="background-image-container">
         <Container fluid className="gx-5 gy-5">
           <Row className="justify-content-center align-items-center vh-100">
             <Col md={6}>
-              <Card className="p-2">
+              <Card className="p-2 custom-card shadow">
                 <Card.Body>
                   <Row>
-                    <Col className="d-flex align-items-center justify-content-center gx-2">
+                    <div className="d-flex align-items-center justify-content-center head gx-2">
                       <span className="star-icon">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ function App() {
                         </svg>
                       </span>
                       <h1 className="me-auto heading"> FAQs </h1>
-                    </Col>
+                    </div>
                   </Row>
                   <Accordion defaultActiveKey="0" className="border border-0">
                     <Accordion.Item eventKey="0">
