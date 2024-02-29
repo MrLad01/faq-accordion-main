@@ -1,22 +1,76 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+}
+
+/* Define a linear gradient background */
+.background-container {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  background: hsl(275, 100%, 97%);
+}
+
 .background-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 40vh;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
   .background-image-container {
     background-image: url("./assets/images/background-pattern-mobile.svg");
     background-size: cover;
     background-position: center;
     height: 35vh;
   }
+  .background-container {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    background: hsl(275, 100%, 97%);
+  }
 }
-
+.star-icon {
+  /* font-size: 12px;
+  width: 30px;
+  height: 30px; */
+  /* padding: 5px; */
+  scale: 0.8;
+}
 .accordion-button.collapsed::after {
   display: none !important;
 }
 .accordion-button:not(.collapsed)::after {
   display: none !important;
+}
+.accordion-item {
+  border: none !important;
+  outline: none !important;
+}
+.accordion-header:not(.collapsed) {
+  background-color: white !important;
+}
+.heading {
+  font-weight: bolder !important;
+  padding-left: 6px !important;
+  font-size: 32px;
+}
+.description {
+  font-weight: 400 !important;
+  opacity: 0.6 !important;
+}
+hr {
+  opacity: 0.08 !important;
 }
