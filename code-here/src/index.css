@@ -25,34 +25,6 @@
   background-position: top;
   height: 40vh;
 }
-
-@media (max-width: 375px) {
-  .background-image-container {
-    background-image: url("./assets/images/background-pattern-mobile.svg");
-    background-size: cover;
-    background-position: center;
-    height: 35vh;
-  }
-  .background-container {
-    position: absolute;
-    bottom: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 70vh;
-    background: hsl(275, 100%, 97%);
-  }
-  .custom-card {
-    width: 90vw !important;
-    border-radius: 8px !important;
-  }
-  .head {
-    padding: 10px !important;
-    padding-bottom: 16px !important;
-  }
-  .custom-card {
-    left: 5% !important;
-  }
-}
 .head {
   display: flex !important;
   align-items: center !important;
@@ -99,4 +71,32 @@ hr {
   position: absolute;
   top: 30%;
   left: 30%;
+}
+
+@media (max-width: 375px) {
+  .background-image-container {
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+  }
+  .background-container {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    background: hsl(275, 100%, 97%);
+  }
+  .custom-card {
+    width: 90vw !important;
+    border-radius: 8px !important;
+  }
+  .head {
+    padding: 10px !important;
+    padding-bottom: 16px !important;
+  }
+  .custom-card {
+    left: 5% !important;
+  }
 }
