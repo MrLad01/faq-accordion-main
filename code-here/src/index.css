@@ -1,10 +1,10 @@
+/* the general font for the page */
 * {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 16px;
 }
-
-/* Define a linear gradient background */
+/* for the lower part of background */
 .background-container {
   position: absolute;
   bottom: 0;
@@ -13,7 +13,7 @@
   height: 60vh;
   background: hsl(275, 100%, 97%);
 }
-
+/* for the upper image of the background */
 .background-image-container {
   position: absolute;
   top: 0;
@@ -25,6 +25,7 @@
   background-position: top;
   height: 40vh;
 }
+/* for the heading of the card */
 .head {
   display: flex !important;
   align-items: center !important;
@@ -73,7 +74,7 @@ hr {
   left: 30%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 575px) {
   .background-image-container {
     background-image: url("./assets/images/background-pattern-mobile.svg");
     background-size: cover;
