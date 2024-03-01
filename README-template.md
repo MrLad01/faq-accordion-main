@@ -1,22 +1,18 @@
 # Frontend Mentor - FAQ accordion solution
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,22 +25,10 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/MrLad01/faq-accordion-main](https://github.com/MrLad01/faq-accordion-main)
+- Live Site URL: [https://mrlad-faq.netlify.app/](https://mrlad-faq.netlify.app/)
 
 ## My process
 
@@ -52,62 +36,40 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Bootstrap (CSS framework)
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- React (JavaScript library)
+- TypeScript (Programming language)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Throughout this project, I gained valuable experience in several areas:
 
-To see how you can add code snippets, see below:
+Bootstrap Integration: Integrating Bootstrap with React allowed me to leverage its pre-built components and utility classes to create a responsive and visually appealing user interface. This project helped solidify my understanding of incorporating third-party libraries into React projects.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+TypeScript Usage: Working with TypeScript provided additional type safety and improved code readability. Defining types for component props, state, and function parameters helped catch errors early in the development process and facilitated collaboration within the team.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+CSS Customization: Customizing CSS styles to achieve the desired visual effects, such as hover and focus states, enhanced the overall user experience. Experimenting with CSS properties and selectors allowed me to fine-tune the appearance of the accordion components.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Accessibility Considerations: Ensuring keyboard navigation compatibility and implementing appropriate ARIA attributes improved the accessibility of the accordion component. This experience highlighted the importance of designing with accessibility in mind to accommodate users with disabilities.
+
+By actively engaging with these concepts and technologies, I've expanded my skill set and feel more confident in my ability to develop responsive and accessible web applications.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+While completing this project was a rewarding experience, there are still areas I aim to focus on for future projects:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Responsive Design Mastery: Continuing to hone my skills in responsive design will enable me to create web applications that adapt seamlessly to various screen sizes and devices. Experimenting with CSS Grid, Flexbox, and media queries can further enhance my understanding of responsive layout techniques.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+TypeScript Proficiency: Deepening my understanding of TypeScript's advanced features, such as generics, utility types, and conditional types, will enable me to write more robust and type-safe code. Delving into more complex type definitions and type inference scenarios can help me leverage TypeScript's full potential.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@MrLad01](https://www.frontendmentor.io/profile/MrLad01)
+- Twitter - [@MrLad01](https://www.twitter.com/MrLad01)
 
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
